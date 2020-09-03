@@ -1,0 +1,109 @@
+<link href="https://fonts.googleapis.com/css2?family=Monoton&family=Montserrat&display=swap" rel="stylesheet">
+
+<style>
+  #main {
+    padding: 30px 40px 30px 40px;
+  }
+
+  #title {
+    font-family: Monoton, serif;
+    font-size: 50px;
+    position: relative;
+    left: 300px;
+    top: 20px;
+    color: #FF8A8A;
+  }
+
+  #sections {
+    font-family: Monoton, serif;
+    font-size: 20px;
+    position: relative;
+    color: #FF8A8A;
+  }
+
+  #img-caption {
+    font-size: 12px;
+    position: relative;
+    left: 270px;
+    padding: 0px 0px 20px 0px;
+    font-family: Montserrat, serif;
+  }
+
+  #tribute-info {
+    font-size: 18px;
+    font-family: Montserrat, serif;
+  }
+
+  #bullets {
+    font-family: Montserrat, serif;
+    font-size: 15px;
+  }
+
+  .responsive-img {
+    max-width: 50%;
+    height: auto;
+  }
+
+  #img-div {
+    max-height: 400px;
+    max-width: 1000px;
+    border-radius: 30px 30px 30px 30px;
+    display: flex;
+    justify-content: center;
+    padding: 0px 0px 0px 0px;
+  }
+
+  #tribute-link {
+    font-family: Montserrat, sans-serif;
+    font-size: 18px;
+
+  }
+
+  a:hover {
+    color: #FF8A8A;
+  }
+</style>
+
+<main id="main">
+  <h1 id="title">
+    Frank Zappa
+  </h1>
+  <div id="img-div">
+    <img id="img-div" id="img-caption" src="https://www.rollingstone.com/wp-content/uploads/2018/06/rs-202787-GettyImages-499686873.jpg?crop=900:600&width=440" alt="Frank Zappa"></img>
+  </div>
+  <p id="img-caption">"Without deviation from the norm, progress is not possible." ~ Frank Zappa</p>
+
+  <p id="tribute-info">
+    Frank Vincent Zappa (December 21, 1940 – December 4, 1993) was an American singer-songwriter, multi-instrumentalist, composer, and bandleader. His work is characterized by nonconformity, free-form improvisation, sound experiments, musical virtuosity, and satire of American culture. In a career spanning more than 30 years, Zappa composed rock, pop, jazz, jazz fusion, orchestral and musique concrète works, and produced almost all of the 60-plus albums that he released with his band the Mothers of Invention and as a solo artist. Zappa also directed feature-length films and music videos, and designed album covers. He is considered one of the most innovative and stylistically diverse rock musicians of his era.
+  </p>
+  <p id="tribute-info">
+    Zappa was a highly productive and prolific artist with a controversial critical standing; supporters of his music admired its compositional complexity, while critics found it lacking emotional depth. He had some commercial success, particularly in Europe, and worked as an independent artist for most of his career. He remains a major influence on musicians and composers. His honors include his 1995 induction into the Rock and Roll Hall of Fame and the 1997 Grammy Lifetime Achievement Award. In 2000, he was ranked number 36 on VH1's 100 Greatest Artists of Hard Rock. In 2004, Rolling Stone magazine ranked him at number 71 on its list of the "100 Greatest Artists of All Time", and in 2011 at number 22 on its list of the "100 Greatest Guitarists of All Time".
+  </p>
+  <h3 id="sections">
+    Quotes
+  </h3>
+  <p>
+    <ul id="bullets">
+      <li>"The most important thing to do in your life is to not interfere with somebody else's life." </li>
+      <li> "Reality is what it is, not what you want it to be."</li>
+      <li> "The illusion of freedom will continue as long as it's profitable to continue the illusion. At the point where the illusion becomes too expensive to maintain, they will just take down the scenery, they will pull back the curtains, they will move the tables and chairs out of the way and you will see the brick wall at the back of the theater." </li>
+      <li> "Americans like to talk about (or be told about) Democracy but, when put to the test, usually find it to be an 'inconvenience.' We have opted instead for an authoritarian system disguised as a Democracy. We pay through the nose for an enormous joke-of-a-government, let it push us around, and then wonder how all those assholes got in there." </li>
+    </ul>
+  </p>
+  <h3 id="sections">
+    5 Zappa Facts
+  </h3>
+  <p>
+    <ol id="bullets">
+      <li> Frank Zappa got a 'Parental Advisory' sticker for his lyrics… on an instrumental album </li>
+      <li> Frank Zappa was an icon of free speech in communist Czechoslovakia because of his constant advocacy against parental advisories and government censorship.</li>
+      <li>Frank Zappa and his friends were confronted at home by a fan brandishing a gun. Frank took him to the pond outside and invented a ceremony where everyone had to throw something in it; the fan threw in his gun</li>
+      <li>
+        Frank Zappa was so astounded by the success of "Bobby Brown", especially in Scandinavia, that he wanted CBS to hire an anthropologist to study why the song became such a big hit.</li>
+      <li> In 1971, a crazed fan shot a flare-gun towards Frank Zappa and his band during a concert in Switzerland. The resulting fire injured several audience members, melted the bands equipment, and destroyed the venue. This incident was the inspiration for Deep Purples, 'Smoke On The Water.'</li>
+    </ol>
+  </p>
+  <p id="tribute-info">Watch and Listen to Frank Zappa
+    <a href="https://vimeo.com/52501310" id="tribute-link" target="_blank">
+      <u>here.</u></a></p>
+</main>
